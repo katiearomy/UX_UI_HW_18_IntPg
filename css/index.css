@@ -373,9 +373,42 @@ header {
     background-color: #C3DDAA;
     max-height: 500px;
 }
-.circlePicLeft {
-    margin-left: 100px;
-}
 .creamBack {
     background-color: #FFF7E4;
+}
+.animalParent {
+  display: flex;
+  flex-direction: row;
+}
+.animalChild {
+  margin: 10px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+ }
+ .barContentLeft {
+   margin-top: 100px;
+ }
+ .barContentRight {
+  margin-top: 100px;
+  text-align: right;
+}
+ .barTitle {
+   font-size: 48px;
+   color: #2A1E1E;
+   margin: 10px;
+ }
+ .barText {
+  font-size: 18px;
+  color: #2A1E1E;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.barButton {
+  font-size: 18px;
+  color:#FFF7E4;
+  margin: 10px;
+  background-color: #187760;
+  padding: 10px;
+  border-radius: 8px;
 }
